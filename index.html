@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link rel = "stylesheet" href="styles.css">
+		<link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+		<div class="outer-container">
+		<div id="hero">
+			<div>
+				<h1>CONVENT HIGH'S 7Th</h1>
+				<p>SLAM DUNK NEWYEAR BASH</p>
+			</div>
+			<div>	
+				<img id="icon" src="images/Basketballicon.jpg" alt="icon image of a basketball around the basket on the board">
+			</div>	
+		</div>
+			<div class="container"> 
+				
+				<div>
+					<h3>HOME</h3>
+					<h2 class="score" id="score-HOME">0</h2>
+					<button class="score-btn" id="home-score-btn-1" onclick="addHomePointsOne()">+1</button>
+					<button class="score-btn" id="home-score-btn-2" onclick="addHomePointsTwo()">+2</button>
+					<button class="score-btn" onclick="addHomePointsThree()">+3</button>
+				</div>
+				<button id="new-game-btn" class="score-btn" onclick="resetScore()">New Game</button>
+				<div>	
+					<h3>GUEST</h3>
+					<h2 class="score" id="score-GUEST">0</h2>
+					<button class="score-btn" onclick="addGuestPointsOne()">+1</button>
+					<button class="score-btn" onclick="addGuestPointsTwo()">+2</button>
+					<button class="score-btn" onclick="addGuestPointsThree()">+3</button>				
+				</div>
+				
+			</div>
+		</div>		
+		
+		<script src="index.js"></script>
+	</body>	
+</html>
